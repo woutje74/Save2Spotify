@@ -1,0 +1,15 @@
+.play-Track{
+    cursor: pointer;
+    width: 20px;
+    padding: .5rem;
+    font-size: 1.05rem;
+    transition: color .25s;
+    border: 0px;
+    opacity: 1;
+    color: #fff;
+  }
+
+  #myaudio {
+      max-width: 350px;
+      padding-top: 2%;
+  }
