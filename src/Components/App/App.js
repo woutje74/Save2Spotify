@@ -35,10 +35,10 @@ class App extends React.Component {
   }
 
 
- /* connectToSpotify(){ 
+ connectToSpotify(){ 
     Spotify.getUserInfo(this.state.accessToken).then(userInfo => {
       this.setState({user: userInfo})})
-  }*/
+  }
   
   addTrack(track){
     let currentPlayList = this.state.playlistTracks;
@@ -59,6 +59,12 @@ class App extends React.Component {
       {playlistTracks: currentPlayList}
     )
   }
+
+  // removeTrack(track){
+  //   let pTracks = this.state.playlistTracks;
+  //   pTracks.filter(currentTrack => currentTrack.id !== track.id);
+  //   this.setState({playlistTracks: pTracks})
+  // }
 
   updatePlaylistName(name){
     this.setState({

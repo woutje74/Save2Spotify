@@ -1,6 +1,6 @@
 let accessToken;
-const clientId = 'new code';
-const redirectUri = 'http://save2spotify.surge.sh';
+//const clientId = ''; //API key for your Spotify app
+//const redirectUri =  '' 
 
 const Spotify = { 
     getAccessToken(){

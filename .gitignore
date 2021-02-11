@@ -102,3 +102,14 @@ dist
 
 # TernJS port file
 .tern-port
+cypress.json
+cypress/screenshots/retrieve_playlists.js/Work with playlists -- Create playlist (failed).png
+.gitignore
+cypress/screenshots/retrieve_playlists.js/Work with playlists -- Get playlists (failed).png
+.gitignore
+cypress/screenshots/retrieve_playlists.js/Work with playlists -- Retrieve specific playlist (failed).png
+.gitignore
+cypress/screenshots/retrieve_playlists.js/Work with playlists -- Get username (failed).png
+cypress/screenshots/signon.js/Visit Spotify login page and log in -- Go to Spotify log in page (failed).png
+cypress/videos/retrieve_playlists.js.mp4
+cypress/videos/signon.js.mp4
